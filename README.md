@@ -5,7 +5,7 @@
 ## 💫 About Me
 
 - 🔭 I’m currently working on **[FEU Tech ACM-X](https://github.com/FEUTechACMX/acmx)**
-- 🤝 I'm looking for help with **[Markdown Studio](https://github.com/alphacoma18/mdstudio)**
+- 🤝 I'm looking for help with **[Markdown Studio](https://github.com/alpharomercoma/mdstudio)**
 - 🌱 I’m currently learning:
   - 📙 **Concepts**: AI/Machine Learning
   - 👾 **Software**: Docker & Kubernetes
@@ -16,7 +16,7 @@
 
 ## 🌐 Socials
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/alpharomercoma) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@alphacoma18) [![Stack Overflow](https://img.shields.io/badge/-StackOverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/18420669) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@alphacoma18) [![Google Play Store](https://img.shields.io/badge/Google_Play-414141.svg?logo=GooglePlay&logoColor=white)](https://play.google.com/store/apps/dev?id=8475868964031287315) [![Microsoft Store](https://img.shields.io/badge/Microsoft_Store-005FB8.svg?logo=MicrosoftStore&logoColor=white)](https://apps.microsoft.com/search/publisher?name=Alpha+Romer+Coma&hl=en-us&gl=US) [![wakatime](https://wakatime.com/badge/user/97aaf23b-73d1-4d5e-824b-f1c60dbc5eed.svg)](https://wakatime.com/@97aaf23b-73d1-4d5e-824b-f1c60dbc5eed) [![Profile Views](https://visitcount.itsvg.in/api?id=alphacoma18&icon=2&color=5)](https://visitcount.itsvg.in) [![Association for Computing Machinery](https://img.shields.io/badge/ACM-0085CA.svg?logo=ACM&logoColor=white)](https://www.facebook.com/photo/?fbid=637135541857079&set=pcb.637136488523651) [![Institute of Electrical and Electronics Engineers](https://img.shields.io/badge/IEEE-00629B.svg?logo=IEEE&logoColor=white)](https://ieee-collabratec.ieee.org/app/p/alpha-coma) [![Google Student Developer Club](https://img.shields.io/badge/GDSC-4285F4.svg?logo=Google&logoColor=white)](https://developers.google.com/profile/u/alphacoma)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/alpharomercoma) [![Medium](https://img.shields.io/badge/Medium-12100E?logo=medium&logoColor=white)](https://medium.com/@alpharomercoma) [![Stack Overflow](https://img.shields.io/badge/-StackOverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/18420669) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@alpharomercoma) [![Google Play Store](https://img.shields.io/badge/Google_Play-414141.svg?logo=GooglePlay&logoColor=white)](https://play.google.com/store/apps/dev?id=8475868964031287315) [![Microsoft Store](https://img.shields.io/badge/Microsoft_Store-005FB8.svg?logo=MicrosoftStore&logoColor=white)](https://apps.microsoft.com/search/publisher?name=Alpha+Romer+Coma&hl=en-us&gl=US) [![wakatime](https://wakatime.com/badge/user/97aaf23b-73d1-4d5e-824b-f1c60dbc5eed.svg)](https://wakatime.com/@97aaf23b-73d1-4d5e-824b-f1c60dbc5eed) [![Profile Views](https://visitcount.itsvg.in/api?id=alpharomercoma&icon=2&color=5)](https://visitcount.itsvg.in) [![Association for Computing Machinery](https://img.shields.io/badge/ACM-0085CA.svg?logo=ACM&logoColor=white)](https://www.facebook.com/photo/?fbid=637135541857079&set=pcb.637136488523651) [![Institute of Electrical and Electronics Engineers](https://img.shields.io/badge/IEEE-00629B.svg?logo=IEEE&logoColor=white)](https://ieee-collabratec.ieee.org/app/p/alpha-coma) [![Google Student Developer Club](https://img.shields.io/badge/GDSC-4285F4.svg?logo=Google&logoColor=white)](https://developers.google.com/profile/u/alphacoma)
 
 ## 💻 Tech Stack
 
@@ -25,14 +25,14 @@
 ****
 ## 📊 GitHub Stats
 
-![GitHub stats 1](https://github-readme-stats.vercel.app/api?username=alphacoma18&theme=radical&hide_border=false&include_all_commits=true&count_private=true)
-![GitHub stats 2](https://github-readme-stats.vercel.app/api/top-langs/?username=alphacoma18&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+![GitHub stats 1](https://github-readme-stats.vercel.app/api?username=alpharomercoma&theme=radical&hide_border=false&include_all_commits=true&count_private=true)
+![GitHub stats 2](https://github-readme-stats.vercel.app/api/top-langs/?username=alpharomercoma&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
-![GitHub stats 3](https://github-readme-streak-stats.herokuapp.com/?user=alphacoma18&theme=radical&hide_border=false)
+![GitHub stats 3](https://github-readme-streak-stats.herokuapp.com/?user=alpharomercoma&theme=radical&hide_border=false)
 
 ## 🏆 GitHub Trophies
 
-![GitHub Trophy](https://github-profile-trophy.vercel.app/?username=alphacoma18&theme=radical&no-frame=false&no-bg=false&margin-w=4)
+![GitHub Trophy](https://github-profile-trophy.vercel.app/?username=alpharomercoma&theme=radical&no-frame=false&no-bg=false&margin-w=4)
 
 ### ✍️ Random Dev Quote
 
@@ -40,8 +40,8 @@
 
 ### 🔝 Top Contributed Repo
 
-![Top Contributed Repo](https://github-contributor-stats.vercel.app/api?username=alphacoma18&limit=5&theme=radical&combine_all_yearly_contributions=true)
+![Top Contributed Repo](https://github-contributor-stats.vercel.app/api?username=alpharomercoma&limit=5&theme=radical&combine_all_yearly_contributions=true)
 
 ## 💰 You can help me by Donating
 
-[![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/alphacoma18) [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/alphacoma18) [![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://patreon.com/alphacoma18) [![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/alphacoma18)
+[![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/alpharomercoma) [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/alpharomercoma) [![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://patreon.com/alpharomercoma) [![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/alpharomercoma)
