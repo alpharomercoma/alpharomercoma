@@ -29,8 +29,12 @@ jobs:
           plugin_languages: yes
           plugin_languages_details: bytes-size, percentage
 
-          plugin_topics: yes
-          plugin_topics_mode: mastered
+          template: repository
+          repo: metrics
+          plugin_licenses: yes
+          plugin_licenses_setup: bash -c '[[ -f package.json ]] && npm ci || true'
+          plugin_licenses_legal: no
+          plugin_licenses_ratio: yes
 
       - name: Right side - Calendar
         uses: lowlighter/metrics@latest
@@ -41,6 +45,17 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
+      - name: Right side - WakaTime
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.wakatime.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_wakatime: yes
+          plugin_wakatime_days: 365
+          plugin_wakatime_sections: time, projects, languages, os
+          plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
+
       - name: Right side - Stars
         uses: lowlighter/metrics@latest
         with:
@@ -48,14 +63,4 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_stars: yes
-          plugin_stars_limit: 3
-
-      - name: Right side - Stock
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.stock.svg
-          token: NOT_NEEDED
-          base: ""
-          plugin_stock: yes
-          plugin_stock_token: ${{ secrets.STOCK_TOKEN }}
-          plugin_stock_symbol: TSLA
+          plugin_stars_limit: 4
