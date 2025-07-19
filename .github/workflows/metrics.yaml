@@ -32,17 +32,14 @@ jobs:
           plugin_topics: yes
           plugin_topics_mode: mastered
 
-      - name: Right side - Wakatime
+      - name: Right side - Calendar
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.wakatime.svg
-          token: NOT_NEEDED
+          filename: metrics.plugin.isocalendar.fullyear.svg
+          token: ${{ secrets.METRICS_TOKEN }}
           base: ""
-          plugin_wakatime: yes
-          plugin_wakatime_sections: time, projects, languages, os
-          plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
-          plugin_licenses_legal: yes
           plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
 
       - name: Right side - Stars
         uses: lowlighter/metrics@latest
@@ -60,6 +57,5 @@ jobs:
           token: NOT_NEEDED
           base: ""
           plugin_stock: yes
-          plugin_stock_duration: 5d
           plugin_stock_token: ${{ secrets.STOCK_TOKEN }}
-          plugin_stock_symbol: MSFT
+          plugin_stock_symbol: TSLA
