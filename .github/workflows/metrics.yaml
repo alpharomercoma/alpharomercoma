@@ -2,7 +2,7 @@
 name: Metrics
 on:
   # Schedule updates (each day)
-  schedule: [{cron: "0 0 * * *"}]
+  schedule: [{cron: "0 * * * *"}]
   workflow_dispatch:
   push: {branches: ["master"]}
 jobs:
@@ -28,7 +28,7 @@ jobs:
           plugin_topics: yes
           plugin_topics_mode: mastered
 
-      - name: Right side
+      - name: Right side - Wakatime
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.wakatime.svg
@@ -37,17 +37,21 @@ jobs:
           plugin_wakatime: yes
           plugin_wakatime_sections: time, projects, languages, os
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
-
           plugin_licenses_legal: yes
+          plugin_isocalendar: yes
 
+      - name: Right side - Stars
+        uses: lowlighter/metrics@latest
+        with:
           filename: metrics.plugin.stars.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_stars: yes
           plugin_stars_limit: 3
 
-          plugin_isocalendar: yes
-
+      - name: Right side - Stock
+        uses: lowlighter/metrics@latest
+        with:
           filename: metrics.plugin.stock.svg
           token: NOT_NEEDED
           base: ""
