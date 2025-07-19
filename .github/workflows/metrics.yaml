@@ -2,7 +2,7 @@
 name: Metrics
 on:
   # Schedule updates (each day)
-  schedule: [{cron: "0 * * * *"}]
+  schedule: [{cron: "0 0 * * *"}]
   workflow_dispatch:
   push: {branches: ["master"]}
 jobs:
@@ -18,7 +18,7 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
-          filename: metrics.svg
+          filename: metrics_left.svg
           base: header, activity, community, repositories, metadata
 
           plugin_gists: yes
@@ -29,31 +29,20 @@ jobs:
           plugin_languages: yes
           plugin_languages_details: bytes-size, percentage
 
-      - name: Right side - Calendar
+      - name: Right side
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.isocalendar.fullyear.svg
+          filename: metrics_right.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
+
+          plugin_wakatime: yes
+          plugin_wakatime_days: 365
+          plugin_wakatime_sections: time, projects, os
+          plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
+
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
-      - name: Right side - WakaTime
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.wakatime.svg
-          token: NOT_NEEDED
-          base: ""
-          plugin_wakatime: yes
-          plugin_wakatime_days: 365
-          plugin_wakatime_sections: time, projects, languages, os
-          plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
-
-      - name: Right side - Stars
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.stars.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
           plugin_stars: yes
-          plugin_stars_limit: 4
+          plugin_stars_limit: 3
