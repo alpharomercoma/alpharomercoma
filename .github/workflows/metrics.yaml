@@ -45,4 +45,4 @@ jobs:
           plugin_isocalendar_duration: full-year
 
           plugin_stars: yes
-          plugin_stars_limit: 3
+          plugin_stars_limit: 4
