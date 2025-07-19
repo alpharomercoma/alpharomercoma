@@ -1,2 +1,2 @@
-<img align="left" width="45%" src="https://github.com/alpharomercoma/alpharomercoma/blob/master/metrics_left.svg">
-<img align="right" width="45%" src="https://github.com/alpharomercoma/alpharomercoma/blob/master/metrics_right.svg">
+<img align="left" width="47.5%" src="https://github.com/alpharomercoma/alpharomercoma/blob/master/metrics_left.svg">
+<img align="right" width="47.5%" src="https://github.com/alpharomercoma/alpharomercoma/blob/master/metrics_right.svg">
