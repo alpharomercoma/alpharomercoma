@@ -2000,6 +2000,11 @@
                                 <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
                                 <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
                             </g>
+                            <g transform="translate(-3.4, 8)">
+                                <path fill="#ebedf0" d="M1.7,2 0,1 1.7,0 3.4,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness1)" d="M0,1 1.7,2 1.7,2 0,1 z"/>
+                                <path fill="#ebedf0" filter="url(#brightness2)" d="M1.7,2 3.4,1 3.4,1 1.7,2 z"/>
+                            </g>
                         </g>
                     </g>
                 </svg>
@@ -2021,7 +2026,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>pytorch/examples</span>
-                                        <span>starred 1 day ago</span>
+                                        <span>starred 2 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">A set of examples around pytorch in Vision, Text, Reinforcement Learning, etc.</div>
@@ -2074,7 +2079,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>thiagoojack/packettracer-fedora</span>
-                                        <span>starred 3 days ago</span>
+                                        <span>starred 4 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">Easily install Cisco Packet Tracer latest version on Fedora.</div>
@@ -2127,7 +2132,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>NASADatanauts/Space-Apps-CH</span>
-                                        <span>starred 7 days ago</span>
+                                        <span>starred 8 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">2025 NASA Space Apps Challenge in Zurich, Switzerland</div>
@@ -2168,7 +2173,7 @@
                                     </svg>
                                     <div class="name">
                                         <span>alpharomercoma/ts-jobspy</span>
-                                        <span>starred 20 days ago</span>
+                                        <span>starred 21 days ago</span>
                                     </div>
                                 </div>
                                 <div class="field description">TypeScript job scraper for LinkedIn, Indeed, Glassdoor, ZipRecruiter &amp; more - rewritten from python-jobspy</div>
