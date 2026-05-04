@@ -1,7 +1,6 @@
 # Documentation: https://github.com/lowlighter/metrics/blob/master/README.md#-documentation
 name: Metrics
 on:
-  # Schedule updates (each day)
   schedule: [{cron: "0 0 * * *"}]
   workflow_dispatch:
   push: {branches: ["master"]}
@@ -14,13 +13,16 @@ jobs:
     timeout-minutes: 10
     environment:
       name: production
+    permissions:
+      contents: write
     steps:
       - name: Left side
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
           filename: metrics_left.svg
-          output_action: none
+          committer_message: "Update metrics_left.svg - [Skip GitHub Action]"
           base: header, activity, community, repositories, metadata
           plugin_gists: yes
           plugin_lines: yes
@@ -29,28 +31,22 @@ jobs:
           plugin_languages_details: bytes-size, percentage
           retries: 3
           retries_delay: 300
-      - name: Upload artifact
-        if: ${{ !cancelled() }}
-        uses: actions/upload-artifact@v4
-        with:
-          name: metrics-left-svg
-          path: |
-            metrics_left.svg
-            /metrics_renders/metrics_left.svg
-            metrics_renders/metrics_left.svg
 
   metrics-right:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     environment:
       name: production
+    permissions:
+      contents: write
     steps:
       - name: Right side
         uses: lowlighter/metrics@latest
         with:
           filename: metrics_right.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          output_action: none
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          committer_message: "Update metrics_right.svg - [Skip GitHub Action]"
           base: ""
           plugin_wakatime: yes
           plugin_wakatime_days: 365
@@ -62,35 +58,3 @@ jobs:
           plugin_stars_limit: 4
           retries: 3
           retries_delay: 300
-      - name: Upload artifact
-        if: ${{ !cancelled() }}
-        uses: actions/upload-artifact@v4
-        with:
-          name: metrics-right-svg
-          path: |
-            metrics_right.svg
-            /metrics_renders/metrics_right.svg
-            metrics_renders/metrics_right.svg
-
-  commit-metrics:
-    needs: [metrics-left, metrics-right]
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    environment:
-      name: production
-    permissions:
-      contents: write
-    steps:
-      - uses: actions/checkout@v4
-      - name: Download artifacts
-        uses: actions/download-artifact@v4
-        with:
-          path: .
-          merge-multiple: true
-      - name: Commit files
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add metrics_left.svg metrics_right.svg
-          git commit -m "Update metrics" || echo "No changes to commit"
-          git push
