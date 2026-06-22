@@ -48,10 +48,6 @@ jobs:
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           committer_message: "Update metrics_right.svg - [Skip GitHub Action]"
           base: ""
-          plugin_wakatime: yes
-          plugin_wakatime_days: 365
-          plugin_wakatime_sections: time, projects, os
-          plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           plugin_stars: yes
